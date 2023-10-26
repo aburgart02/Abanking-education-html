@@ -1,0 +1,40 @@
+@use './header.scss';
+@use './nav.scss';
+@use './about.scss';
+@use './posts.scss';
+@use './works.scss';
+@use './footer.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    max-width: 1152px;
+    margin: 0 auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}

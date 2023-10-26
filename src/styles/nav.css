@@ -1,0 +1,14 @@
+.nav__link {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+.nav__link:hover {
+  opacity: 0.6;
+}
+.nav__list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}/*# sourceMappingURL=nav.css.map */
